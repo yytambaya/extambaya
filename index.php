@@ -98,7 +98,7 @@ function setValue(){
                         <a href="about.php" class="nav-link"><span data-hover="About"><small class="small-text">About</small></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link"><span data-hover="Live Rates"><small class="small-text">Live Rates</small></span></a>
+                        <a href="index.php" class="nav-link"><span data-hover="Live Rates"><small class="small-text">Rates</small></span></a>
                     </li>
                     <li class="nav-item">
                         <a href="historical.php" class="nav-link"><span data-hover="Historical"><small class="small-text">Historical</small></span></a>
@@ -120,9 +120,8 @@ function setValue(){
     <!-- Live Panel -->
     <section class="project py-5" id="project">
         <div class="container">
-
           <div class="row">
-            <div class="col-lg-2 text-center mx-auto col-2 text-success">
+            <div class="col-lg-4 text-center mx-auto col-sm-12 col-xs-12 col-4 text-success">
               <div class="owl-carouse owl-theme">
                 <?php
                 if(isset($_GET['filter'])){
@@ -197,7 +196,7 @@ function setValue(){
           </div>
 
 
-            <div class="col-lg-8 text-center mx-auto col-8 ">
+            <div class="col-lg-8 text-center mx-auto col-8 col-sm-12 col-xs-12">
 
                 <div class="col-lg-8 mx-auto">
                 <div class="owl-carouse owl-theme">
@@ -245,12 +244,11 @@ function setValue(){
 
         <!--<div class="col-lg-1 col-lg-1 col-xs-1 col-sm-1 text-center mx-auto col-1">
           <div class="owl-carouse owl-theme">
-            <div class="container"><img class="img img-round" src='images/custom/myads.png' width='' height=''></container>
+            <div class="container"><img class="img img-round" src='images/custom/myads.png' width='' height=''></div>
           </div>
         </div>
       </div>-->
-
-      </div>
+        </div>
       </div>
     </section>
 
