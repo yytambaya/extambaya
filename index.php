@@ -170,7 +170,7 @@ function setValue(){
                 ?>
                 <form method="GET" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
               <div class="form-group">
-                <p><input type="number" name="amount" value="<?php if(isset($amount)) echo $amount; else echo 1; ?>" class="form-control bg-dark"></p>
+                <p><input type="number" name="amount" value="<?php if(isset($amount)) echo $amount; else echo 1; ?>" class="form-control bg-dark" style="color:white;"></p>
                 <p><select name="from" class="form-control">
                   <?php
                   foreach($data[1]['rates'] as $key => $value){?>
@@ -184,7 +184,7 @@ function setValue(){
                     <option value='<?php echo $key; ?>' <?php if (isset($toval) and $toval==$key) echo "selected='selected'"; ?>><?php echo $key; ?></option>";
                   <?php } ?>
                 </select></p>
-                <p><input type="submit" name="calculate" class="form-control bg-dark" value="Calculate"></p>
+                <p><input type="submit" name="calculate" class="form-control bg-dark" value="Calculate" style="color:white;"></p>
               <?php } ?>
                 <div class="container">
                   <p class="text-success"><?php if(isset($c_value)) echo $c_value; ?>
