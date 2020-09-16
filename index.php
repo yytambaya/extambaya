@@ -121,7 +121,7 @@ function setValue(){
     <section class="project py-5" id="project">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 text-center mx-auto col-sm-12 col-xs-12 col-4 text-success">
+            <div class="col-lg-4 text-center mx-auto col-xs-12  text-success">
               <div class="owl-carouse owl-theme">
                 <?php
                 if(isset($_GET['filter'])){
@@ -196,7 +196,7 @@ function setValue(){
           </div>
 
 
-            <div class="col-lg-8 text-center mx-auto col-8 col-sm-12 col-xs-12">
+            <div class="col-lg-8 text-center mx-auto col-sm-12 col-xs-12">
 
                 <div class="col-lg-8 mx-auto">
                 <div class="owl-carouse owl-theme">
